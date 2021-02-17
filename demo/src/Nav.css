@@ -1,0 +1,79 @@
+*{
+    margin:auto;
+    
+} 
+
+.logo1{
+    
+    height: 5vh;
+    width: 5vw; 
+    margin-left: 20px;
+}
+
+.navigation{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.NavItem{
+    font-size: 30px;
+    text-decoration: none;
+    margin: 10px 20px; 
+}
+
+.NavItem:hover{
+    color:Blue;
+}
+
+.NavPhoneNo{
+    font-size: 30px;
+    margin: 10px 20px; 
+    color: rgb(0, 107, 169);
+}
+
+.VisitedWebpage{
+    color:blue;
+}
+
+.dropdownicon{
+    display:none;
+}
+
+@media only screen and (max-width: 600px) {
+    .NavItem{
+        display:none;
+    }
+
+    .dropdownicon{
+        display: block;
+        width: 12vw;
+        height: 12vh;
+        position: absolute;
+        top:3;
+        right:0;
+           }
+
+    .NavPhoneNo{
+        display: none;
+    }
+
+    .logo1{
+        width:12vw;
+        height:12vh;
+    }
+
+    .logo{
+        position: absolute;
+        top:0;
+        left:0;
+    }
+
+  }
